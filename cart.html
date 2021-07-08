@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cart Page</title>
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="stylesheet" href="style/font-awesome.css">
+</head>
+
+<body>
+	<header class="head">
+		<div class="container">
+			<div class="header">
+				<div class="left">
+					<a href="index.html" class="left__logo">
+						<img src="img/logo.png" alt="logo">
+					</a>
+					<div class="left__search">
+						<img src="img/search.svg" alt="search">
+					</div>
+				</div>
+
+				<div class="right">
+
+					<div class="right__burger menu">
+						<input class="right__burger-check" type="checkbox" id="burger_menu">
+						<label class="right__burger-label" for="burger_menu">
+							<img src="img/burger.svg" alt="burger">
+						</label>
+						<div class="right__burger-drop">
+							<label class="right__burger-drop-close" for="burger_menu"><i class="fa fa-times fa-2x"></i></label>
+							<div class="right__burger-drop-title">MENU</div>
+							<div class="right__burger-drop-head">
+								MAN
+							</div>
+							<div class="right__burger-drop-item">
+								Accessories
+							</div>
+							<div class="right__burger-drop-item">
+								Bags
+							</div>
+							<div class="right__burger-drop-item">
+								Denim
+							</div>
+							<div class="right__burger-drop-item">
+								T-Shirts
+							</div>
+							<div class="right__burger-drop-head">
+								WOMAN
+							</div>
+							<div class="right__burger-drop-item">
+								Accessories
+							</div>
+							<div class="right__burger-drop-item">
+								Jackets & Coats
+							</div>
+							<div class="right__burger-drop-item">
+								Polos
+							</div>
+							<div class="right__burger-drop-item">
+								T-Shirts
+							</div>
+							<div class="right__burger-drop-item">
+								Shirts
+							</div>
+							<div class="right__burger-drop-head">
+								KIDS
+							</div>
+							<div class="right__burger-drop-item">
+								Accessories
+							</div>
+							<div class="right__burger-drop-item">
+								Jackets & Coats
+							</div>
+							<div class="right__burger-drop-item">
+								Polos
+							</div>
+							<div class="right__burger-drop-item">
+								T-Shirts
+							</div>
+							<div class="right__burger-drop-item">
+								Shirts
+							</div>
+							<div class="right__burger-drop-item">
+								Bags
+							</div>
+						</div>
+					</div>
+					<a href="registration.html" class="right__person menu">
+						<img src="img/person.svg" alt="person">
+					</a>
+					<a href="cart.html" class="right__cart menu">
+						<img src="img/cart.svg" alt="cart">
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="main">
+		<div class="catalogHeader">
+			<div class="container">
+				<div class="cathead">
+					<div class="cathead__left">
+						<h1 class="cathead__left-text">SHOPPING CART</h1>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="cart">
+				<div class="cart__products">
+					<div class="cart__products-item">
+						<div class="cart__products-item-img">
+							<img src="img/cart-item-0.png" alt="item">
+						</div>
+						<div class="cart__products-item-info">
+							<div class="cart__products-item-info-del">
+								<img src="img/del.svg" alt="del">
+							</div>
+							<div class="cart__products-item-info-name">MANGO PEOPLE T-SHIRT</div>
+							<div class="cart__products-item-info-text">
+								<div class="cart__products-item-info-text-line">Price: <span
+										class="cart__products-item-info-text-line-cost">$300</span>
+								</div>
+								<div class="cart__products-item-info-text-line">Color: Red</div>
+								<div class="cart__products-item-info-text-line">Size: Xl</div>
+								<div class="cart__products-item-info-text-line">Quantity: <input
+										class="cart__products-item-info-text-count" type="number" value="2"></div>
+							</div>
+						</div>
+					</div>
+					<div class="cart__products-item">
+						<div class="cart__products-item-img">
+							<img src="img/cart-item-1.png" alt="item">
+						</div>
+						<div class="cart__products-item-info">
+							<div class="cart__products-item-info-del">
+								<img src="img/del.svg" alt="del">
+							</div>
+							<div class="cart__products-item-info-name">MANGO PEOPLE T-SHIRT</div>
+							<div class="cart__products-item-info-text">
+								<div class="cart__products-item-info-text-line">Price: <span
+										class="cart__products-item-info-text-line-cost">$300</span>
+								</div>
+								<div class="cart__products-item-info-text-line">Color: Red</div>
+								<div class="cart__products-item-info-text-line">Size: Xl</div>
+								<div class="cart__products-item-info-text-line">Quantity: <input
+										class="cart__products-item-info-text-count" type="number" value="2"></div>
+							</div>
+						</div>
+					</div>
+					<div class="cart__products-controls">
+						<button class="cart__products-controls-but">CLEAR SHOPPING CART</button>
+						<button class="cart__products-controls-but">CONTINUE SHOPPING</button>
+					</div>
+				</div>
+				<div class="cart__form">
+					<div class="cart__form-addres">
+						<div class="cart__form-addres-header">SHIPPING ADRESS</div>
+						<input class="cart__form-addres-input" type="text" placeholder="Bangladesh">
+						<input class="cart__form-addres-input" type="text" placeholder="State">
+						<input class="cart__form-addres-input" type="text" placeholder="Postcode / Zip">
+						<button class="cart__form-addres-but">GET A QUOTE</button>
+					</div>
+					<div class="cart__form-checkout">
+						<div class="cart__form-checkout-sub">SUB TOTAL <span class="cart__form-checkout-sub-cost">$900</span></div>
+						<div class="cart__form-checkout-grand">GRAND TOTAL <span class="cart__form-checkout-grand-cost">$900</span></div>
+						<hr class="cart__form-checkout-hr">
+						<button class="cart__form-checkout-but">PROCEED TO CHECKOUT</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+
+	<footer>
+		<div class="subscribe">
+			<div class="sub container">
+				<div class="sub__info">
+					<img src="img/photo.png" alt="photo">
+					<p class="sub__info-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, <i>a pulvinar
+							purus condimentum</i>“</p>
+				</div>
+				<div class="sub__subscribe">
+					<div class="sub__subscribe-header">SUBSCRIBE</div>
+					<div class="sub__subscribe-title">FOR OUR NEWLETTER AND PROMOTION</div>
+					<form class="sub__subscribe-form">
+						<input name="email" class="sub__subscribe-form-email" type="email"
+							placeholder="Enter Your Email" required>
+						<button class="sub__subscribe-form-but" type="submit">Subscribe</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<div class="copyr container">
+				<div class="copyr__left">© 2021 Brand All Rights Reserved.</div>
+				<div class="copyr__social">
+					<a href="#" class="copyr__social-item">
+						<i class="copyr__social-item-icon fa fa-facebook"></i>
+					</a>
+					<a href="#" class="copyr__social-item">
+						<i class="copyr__social-item-icon fa fa-instagram"></i>
+					</a>
+					<a href="#" class="copyr__social-item">
+						<i class="copyr__social-item-icon fa fa-pinterest-p"></i>
+					</a>
+					<a href="#" class="copyr__social-item">
+						<i class="copyr__social-item-icon fa fa-twitter"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
